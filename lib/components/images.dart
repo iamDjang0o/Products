@@ -6,5 +6,5 @@ class AssetPaths {
       'assets/animations/image_indicator.json';
 
   // Image paths
-  static const String background = 'assets/images/bg.jpg';
+  static const String background = 'assets/bg.jpg';
 }

@@ -27,8 +27,8 @@ class MyApp extends StatelessWidget {
         colorSchemeSeed: primaryColor,
       ),
 
-      debugShowCheckedModeBanner: false, // Initialize the bindings
-      initialRoute: Routes.home, // Set the initial route to home
+      debugShowCheckedModeBanner: false,
+      initialRoute: Routes.home,
       getPages: routes, // Define the routes
     );
   }
