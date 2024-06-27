@@ -6,9 +6,9 @@ import 'package:flutter/services.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
-import 'package:pruduct_app/components/appbar.dart';
 import 'package:pruduct_app/components/colors.dart';
 import 'package:pruduct_app/components/images.dart';
+import 'package:pruduct_app/components/widgets/appbar.dart';
 import 'package:pruduct_app/pages/home/controller/product_controller.dart';
 import 'package:pruduct_app/utils/route/routes.dart';
 

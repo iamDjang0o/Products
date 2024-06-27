@@ -3,7 +3,7 @@ import 'package:gap/gap.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:pruduct_app/components/images.dart';
-import 'package:pruduct_app/components/textfield.dart';
+import 'package:pruduct_app/components/widgets/textfield.dart';
 import 'package:pruduct_app/pages/auth/login/controller/login_controller.dart';
 
 class SignInPage extends StatelessWidget {
@@ -31,7 +31,7 @@ class SignInPage extends StatelessWidget {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Gap(150),
+                const Gap(150),
                 MyTextfield(
                   hint: 'Email',
                   controller: signInController.usernameController,
