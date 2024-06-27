@@ -1,0 +1,45 @@
+name: pruduct_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  # get package for state management and dependency injection and routing
+  get: ^4.6.6
+  # get_storage for local storage
+  get_storage: ^2.1.1
+  # search_page for search functionality
+  search_page: ^2.3.0
+  # http package for api requests
+  http: ^1.2.1
+  # gap package for responsive design
+  gap: ^3.0.1
+  # cached_network_image for caching images from network for better performance and efficiency
+  cached_network_image: ^3.3.1
+  # lottie package for animations
+  lottie: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+
